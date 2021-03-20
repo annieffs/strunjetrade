@@ -1,0 +1,85 @@
+.navbar{
+    position: relative;
+    display: flex;
+    width: 100vw;
+    height: 77px;
+    background-color: black; /*ovo se brise*/
+    align-items: center;
+    
+    
+}
+.navbarLogo{
+    position: absolute;
+    text-decoration: none;
+    color: #ffffff;
+    
+    left: 5%;
+    line-height: 18.22px;
+    font-size: 22px;
+    letter-spacing: -0.035em;
+
+}
+.navLinks {
+    position: absolute;
+    display: flex;
+    right:5%;
+    
+    list-style-type: none;
+    
+    align-items: center;
+    
+
+}
+.navLink {
+    text-decoration: none;
+    color: #09B379;
+    padding-left: 35px;
+    line-height: 23.74px;
+    
+}
+.burgerMenu{
+    display: none;
+}
+
+@media screen and (max-width: 800px){
+    .navLink {
+        display: none;
+    }
+
+    .burgerMenu{
+        position: relative;
+        width: 60px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .burger{
+        height: 3px;
+        background: #09B379;
+        width: 34px;
+
+    }
+    .burger::before,
+    .burger::after {
+        content: '';
+        position: absolute;
+        width: 34px;
+        height: 3px;
+        background: #09B379;
+        
+        transition: all .5s ease-in-out;
+        
+    }
+    .burger::before{
+        
+        width: 17px;
+        transform: translateY(-12px) translateX(17px);
+    }
+    .burger::after{
+        transform: translateY(12px);
+    }
+
+}

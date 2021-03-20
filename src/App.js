@@ -1,23 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'; 
+import Landing from './components/Landing'
+import Navbar from './components/Navbar'
+import NewsContainer from './components/NewsContainer'
+import { Route, Switch } from "react-router-dom"
+
+import About from './views/About'
+import Schedule from './views/Schedule'
+import Prices from './views/Prices'
+import Contact from './views/Contact'
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Switch>
+        <Route exact path="/">
+
+          <Landing/>
+          <Navbar/>
+          <NewsContainer/>
+
+        </Route>
+
+        <Route exact path='/o_nama' component={About} />
+        <Route exact path='/raspored_odvoza' component={Schedule} />
+        <Route exact path='/cjenik_usluga' component={Prices} />
+        <Route exact path='/kontakt' component={Contact} />
+      </Switch>
+
+
+      
+      
+      
+      
     </div>
   );
 }
