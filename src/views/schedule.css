@@ -1,0 +1,38 @@
+.schedule {
+    color: black;
+    
+}
+.schedule_wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.schedule_wrap > h1{
+    
+}
+
+
+
+
+
+
+
+.selection{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.green_box{
+    background-color: #058273;
+    opacity: 20%;
+    height: 135px;
+    width: 90%;
+    margin: 10px;
+}
+.error{
+    border: 1px solid red;
+}
+.error2{
+    border: 1px dashed tomato;
+}

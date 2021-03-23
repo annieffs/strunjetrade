@@ -18,8 +18,8 @@ function App() {
         <Route exact path="/">
 
           <Landing/>
-          <Navbar/>
-          <NewsContainer/>
+          
+
 
         </Route>
 
@@ -29,13 +29,12 @@ function App() {
         <Route exact path='/kontakt' component={Contact} />
       </Switch>
 
-
       
       
       
       
     </div>
-  );
+  )
 }
 
 export default App;

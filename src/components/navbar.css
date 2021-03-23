@@ -2,8 +2,8 @@
     position: relative;
     display: flex;
     width: 100vw;
-    height: 77px;
-    background-color: black; /*ovo se brise*/
+    height: 95px;
+    
     align-items: center;
     
     
@@ -11,32 +11,37 @@
 .navbarLogo{
     position: absolute;
     text-decoration: none;
-    color: #ffffff;
-    
+    color: #2c2c2c;
+    font-weight: 700;
     left: 5%;
-    line-height: 18.22px;
-    font-size: 22px;
+    line-height: 20.22px;
+    font-size: 15px;
     letter-spacing: -0.035em;
 
 }
 .navLinks {
+   
     position: absolute;
     display: flex;
-    right:5%;
-    
     list-style-type: none;
-    
+    font-size: 15px;
     align-items: center;
-    
+    right:5%;
 
 }
 .navLink {
     text-decoration: none;
-    color: #09B379;
-    padding-left: 35px;
-    line-height: 23.74px;
-    
+    color:  #2c2c2c;
+    padding-left: 85px;
+    line-height: 24.74px;
+    font-weight: 500;
+
 }
+.navLink:hover{
+    text-decoration: underline;
+    color: teal;
+}
+
 .burgerMenu{
     display: none;
 }

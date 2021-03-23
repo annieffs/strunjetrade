@@ -1,0 +1,70 @@
+[
+    {
+    "id" : 1,
+    "city": "Babina Greda",
+    "komunalni otpad" : "ponedeljak",
+    "papir i karton" : "zadnji četvrtak u mjesecu",
+    "plastika" : "prvi četvrtak u mjesecu"
+    },
+    {
+        "id" : 2,
+        "city": "Vrbanja",
+        "komunalni otpad" : "Utorak",
+        "papir i karton" : "zadnja subota u mjesecu",
+        "plastika" : "prva subota u mjesecu"
+    },
+    {
+        "id" : 3,
+        "city": "Soljani",
+        "komunalni otpad" : "Utorak",
+        "papir i karton" : "zadnja subota u mjesecu",
+        "plastika" : "prva subota u mjesecu"
+    },
+    {
+        "id" : 4,
+        "city": "Strošinci",
+        "komunalni otpad" : "Utorak",
+        "papir i karton" : "zadnja subota u mjesecu",
+        "plastika" : "prva subota u mjesecu"
+    },
+    {
+        "id" : 5,
+        "city": "Andrijaševci",
+        "komunalni otpad" : "Srijeda",
+        "papir i karton" : "zadnji četvrtak u mjesecu",
+        "plastika" : "prvi četvrtak u mjesecu"
+    },
+    {
+        "id" : 6,
+        "city": "Negoslavci",
+        "komunalni otpad" : "Srijeda",
+        "papir i karton" : "zadnji utorak u mjesecu",
+        "plastika" : "prvi utorak u mjesecu"
+    },
+    {
+        "id" : 7,
+        "city": "Rokovci",
+        "komunalni otpad" : "Srijeda",
+        "papir i karton" : "zadnji četvrtak u mjesecu",
+        "plastika" : "prvi četvrtak u mjesecu"
+    },
+    {
+        "id" : 8,
+        "city": "Privlaka",
+        "komunalni otpad" : "Četvrtak",
+        "papir i karton" : "zadnji ponedjeljak u mjesecu",
+        "plastika" : "prvi ponedjeljak u mjesecu"
+    },
+    {
+        "id" : 9,
+        "city": "Markušica",
+        "komunalni otpad" : "petak",
+        "plastika" : "prvi petak u mjesecu"
+    },
+    {
+        "id" : 10,
+        "city": "Šodolovci",
+        "komunalni otpad" : "petak",
+        "plastika" : "prvi petak u mjesecu"
+    }
+]

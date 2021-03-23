@@ -1,3 +1,18 @@
 .img {
-    width: 100px;
+    width: 50px;
+    padding-right: 10px;
+}
+
+
+.flex_box{
+    display: flex;
+    margin-left: 5%;  
+}
+
+.flex_box > p{
+    margin-top: 15px;
+}
+
+.flex_wrap{
+    display: flex;
 }
